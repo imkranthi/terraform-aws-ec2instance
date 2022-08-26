@@ -8,8 +8,7 @@ module "ec2" {
   key_name                  = "instance-ping"
   vpc_security_group_ids    = "sg-087c4b0ae917d8b67"
   subnet_id                 = "subnet-00f114f5d0ca36190"
-tags                        = {
     Name                    = "testinstance"
     env                     = "test"
-  }
+  
 }
